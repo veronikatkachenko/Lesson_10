@@ -1,0 +1,15 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+
+body{
+	font-family: Lato, sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+[class*="__container"]{
+	margin: 0px auto;
+	max-width: 1230px;
+}
